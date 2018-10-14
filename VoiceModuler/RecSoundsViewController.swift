@@ -60,7 +60,7 @@ class RecSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         recordButton.isEnabled = true
         stopRecordingButton.isEnabled = false
         recordingLabel.text = "Tap to Record"
-        
+//        para de gravar
         audioRecorder.stop()
         let audioSession = AVAudioSession.sharedInstance()
         try! audioSession.setActive(false)
